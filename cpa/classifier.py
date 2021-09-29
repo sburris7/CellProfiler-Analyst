@@ -292,7 +292,7 @@ class Classifier(wx.Frame):
         #######################
 
         # Define Classifiers
-        RandomForestClassifier = GeneralClassifier("ensemble.RandomForestClassifier(n_estimators=100)", self)
+        RandomForestClassifier = GeneralClassifier("ensemble.RandomForestClassifier(n_estimators=200)", self)
         AdaBoostClassifier = GeneralClassifier("ensemble.AdaBoostClassifier()", self)
         SVC = GeneralClassifier("svm.SVC(probability=True)", self, scaler=True)
         
